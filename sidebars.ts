@@ -22,6 +22,12 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'async-ws',
+      collapsible: false,
+      items: ['async-ws/intro', 'async-ws/api-reference'],
+    },
   ],
 };
 

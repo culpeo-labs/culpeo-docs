@@ -53,8 +53,8 @@ const projects: ProjectItem[] = [
     title: 'async-ws',
     description:
       'A promise-based, async-iterable WebSocket client that works in browsers and Node.js. Replaces event-listener soup with structured async iteration.',
-    link: 'https://github.com/culpeo-labs/async-ws',
-    linkLabel: 'View on GitHub →',
+    link: '/docs/async-ws/intro',
+    linkLabel: 'Explore async-ws →',
   },
 ];
 

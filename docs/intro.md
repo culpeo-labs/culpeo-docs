@@ -22,5 +22,7 @@ A lightweight, bidirectional streaming protocol designed for real-time AI media 
 
 A promise-based, async-iterable WebSocket client for browsers and Node.js.
 
+- [Overview](/docs/async-ws/intro)
+- [API Reference](/docs/async-ws/api-reference)
 - [GitHub](https://github.com/culpeo-labs/async-ws)
 - [npm](https://www.npmjs.com/package/@culpeo/async-ws)
