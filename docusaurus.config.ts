@@ -85,6 +85,14 @@ const config: Config = {
           ],
         },
         {
+          title: 'async-ws',
+          items: [
+            {label: 'Overview', to: '/docs/async-ws/intro'},
+            {label: 'API Reference', to: '/docs/async-ws/api-reference'},
+            {label: 'GitHub', href: 'https://github.com/culpeo-labs/async-ws'},
+          ],
+        },
+        {
           title: 'Organization',
           items: [
             {
