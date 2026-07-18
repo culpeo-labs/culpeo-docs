@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://culpeo-labs.github.io',
+  url: 'https://culpeo.ws',
   baseUrl: '/',
 
   organizationName: 'culpeo-labs',
