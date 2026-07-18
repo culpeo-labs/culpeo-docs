@@ -18,10 +18,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn
 
       - name: Build
-        run: npm run build
+        run: yarn build
 
   deploy:
     needs: build
@@ -36,13 +36,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
+          cache: 'yarn'
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: yarn deploy
         env:
           GIT_USER: github-actions[bot]
           GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
