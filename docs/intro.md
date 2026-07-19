@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: Overview
 slug: /
 ---
 
@@ -9,20 +10,11 @@ culpeo-labs builds open protocols and libraries for real-time AI media applicati
 
 ## Projects
 
-### CulpeoStream
-
-A lightweight, bidirectional streaming protocol designed for real-time AI media applications — audio, video, text, and mixed-modal streams over a single persistent connection.
-
-- [Protocol Specification](/docs/culpeostream/spec)
-- [TypeScript implementation](/docs/culpeostream/implementations/typescript)
-- [C# implementation](/docs/culpeostream/implementations/csharp)
-- [C++ implementation](/docs/culpeostream/implementations/cpp)
-
 ### async-ws
 
 A promise-based, async-iterable WebSocket client for browsers and Node.js.
 
-- [Overview](/docs/async-ws/intro)
-- [API Reference](/docs/async-ws/api-reference)
+- [Overview](/async-ws/intro)
+- [API Reference](/async-ws/api-reference)
 - [GitHub](https://github.com/culpeo-labs/async-ws)
 - [npm](https://www.npmjs.com/package/@culpeo/async-ws)

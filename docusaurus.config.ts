@@ -19,6 +19,18 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
 
+  plugins: [
+    [
+      'docusaurus-plugin-remote-content',
+      {
+        name: 'async-ws-docs',
+        sourceBaseUrl: 'https://raw.githubusercontent.com/culpeo-labs/async-ws/main/docs/',
+        outDir: 'docs/async-ws',
+        documents: ['intro.md', 'api-reference.md'],
+      },
+    ],
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -29,8 +41,15 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/culpeo-labs/culpeo-docs/tree/main/',
+          editUrl: ({docPath}) => {
+            const asyncWsPrefix = 'async-ws/';
+            if (docPath.startsWith(asyncWsPrefix)) {
+              return `https://github.com/culpeo-labs/async-ws/tree/main/docs/${docPath.slice(asyncWsPrefix.length)}`;
+            }
+            return `https://github.com/culpeo-labs/culpeo-docs/tree/main/docs/${docPath}`;
+          },
         },
         blog: false,
         theme: {
@@ -53,56 +72,11 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'mainSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
-        {
           href: 'https://github.com/culpeo-labs',
           label: 'GitHub',
           position: 'right',
         },
       ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'CulpeoStream',
-          items: [
-            {label: 'Overview', to: '/docs/culpeostream/intro'},
-            {label: 'Protocol Spec', to: '/docs/culpeostream/spec'},
-            {label: 'Security', to: '/docs/culpeostream/security'},
-          ],
-        },
-        {
-          title: 'Implementations',
-          items: [
-            {label: 'TypeScript', to: '/docs/culpeostream/implementations/typescript'},
-            {label: 'C#', to: '/docs/culpeostream/implementations/csharp'},
-            {label: 'C++', to: '/docs/culpeostream/implementations/cpp'},
-          ],
-        },
-        {
-          title: 'async-ws',
-          items: [
-            {label: 'Overview', to: '/docs/async-ws/intro'},
-            {label: 'API Reference', to: '/docs/async-ws/api-reference'},
-            {label: 'GitHub', href: 'https://github.com/culpeo-labs/async-ws'},
-          ],
-        },
-        {
-          title: 'Organization',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/culpeo-labs',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} culpeo-labs. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
