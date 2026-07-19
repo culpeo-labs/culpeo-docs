@@ -6,7 +6,7 @@ slug: /
 
 # culpeo-labs
 
-culpeo-labs builds open protocols and libraries for real-time AI media applications.
+culpeo-labs is a collection of independent projects exploring ideas worth building.
 
 ## Projects
 
