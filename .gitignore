@@ -9,7 +9,7 @@
 .cache-loader
 
 # Remote content fetched at build time (see docusaurus-plugin-remote-content in docusaurus.config.ts)
-/docs
+/docs/async-ws
 
 # Misc
 .DS_Store

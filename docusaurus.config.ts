@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'culpeo-labs',
-  tagline: 'Open protocols and libraries for real-time AI applications',
+  tagline: 'Independent projects exploring ideas worth building',
   favicon: 'img/favicon.ico',
 
   future: {
