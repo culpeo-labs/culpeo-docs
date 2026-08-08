@@ -6,7 +6,11 @@ slug: /
 
 # culpeo-labs
 
-culpeo-labs is a collection of independent projects exploring ideas worth building.
+This is where I keep notes and docs for the things I build and tinker with, mostly as a way to
+learn and experiment.
+
+- Check the [blog](/blog) for write-ups and running notes.
+- Browse the projects below for docs on specific things.
 
 ## Projects
 

@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'culpeo-labs',
-  tagline: 'Independent projects exploring ideas worth building',
+  tagline: 'Notes and projects from learning and experimenting',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -51,7 +51,10 @@ const config: Config = {
             return `https://github.com/culpeo-labs/culpeo-docs/tree/main/docs/${docPath}`;
           },
         },
-        blog: false,
+        blog: {
+          routeBasePath: 'blog',
+          showReadingTime: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -71,6 +74,11 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
+        },
         {
           href: 'https://github.com/culpeo-labs',
           label: 'GitHub',
