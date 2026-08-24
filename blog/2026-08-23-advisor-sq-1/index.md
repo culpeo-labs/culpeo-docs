@@ -137,3 +137,10 @@ And finally, in our greedy implementation we get the token by using `argmax`:
 ```
 
 If we are processing input, we discard this token and process the next input token. This does not mean the pass was a waste as it updates the KV-cache (topic that we punt to a future post). If we are in the generation phase (past the input), this would be our next output token. GG
+
+
+#### References:
+- [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
+- [3Blue1Brown: Transformers, the tech behind LLMs](https://www.3blue1brown.com/lessons/gpt)
+- [3Blue1Brown: Attention in transformers, step-by-step](https://www.3blue1brown.com/lessons/attention)
+- [3Blue1Brown: How might LLMs store facts](https://www.3blue1brown.com/lessons/mlp)
