@@ -1,0 +1,32 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Ainslie",
+    "deleter",
+    "glecaros",
+    "logits",
+    "RAII",
+    "refdoc",
+    "safetensors",
+    "softmax",
+    "unembedding",
+    "Vaswani"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "build/**",
+    ".docusaurus/**",
+    "**/*.css",
+    "package-lock.json"
+  ],
+  "dictionaries": [
+    "en_US",
+    "software-terms"
+  ],
+  "ignoreRegExpList": [
+    "/```[\\s\\S]*?```/",
+    "/`[^`]*`/",
+    "/https?:\\/\\/[^\\s]*/"
+  ]
+}

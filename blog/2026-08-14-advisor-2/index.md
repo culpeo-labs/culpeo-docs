@@ -20,7 +20,7 @@ The components to get the naive implementation to work are:
 Tokenization in both directions is for now out of scope and I'll use a wrapping layer that handles token encoding/decoding.
 On top of that, we have a somewhat orthogonal staging for implementation that relates to runtime optimization, and note that we will start with the slowest most naive implementation with the explicit intention of experiencing the impact of each layer. These, at broad strokes are: scalar implementation, SIMD, concurrency, and GPU.
 
-Finally, the last axis in this implementation is related to how it works (and how useful it is). Broadly speaking we have the greedy implementation (argmax) vs the non-deterministic (with top-p and temperature). This is one of the most interesting parts from a learning perspective as it is the one that I understand the least, so for now we just parrot the names.
+Finally, the last axis in this implementation is related to how it works (and how useful it is). Broadly speaking we have the greedy implementation (`argmax`) vs the non-deterministic (with top-p and temperature). This is one of the most interesting parts from a learning perspective as it is the one that I understand the least, so for now we just parrot the names.
 
 With that, let's move to the first stage, the kernels. From the writeup AI generated for me, it seems that we will need to implement a few operations (these are presented as refdoc-like signatures sometimes with pseudocode). These are:
 
@@ -58,7 +58,7 @@ With that, let's move to the first stage, the kernels. From the writeup AI gener
 
     Returns the index of the biggest element, this we use in our greedy implementation to find the next token.
 
-This is what my research yielded for each of the functions I needed to implement and, while this has been really illustrative, I feel that I lack the conceptual undertanding on how these play together. I'll shelve this concern for now and probably take a little side quest to find out more for the next writeup.
+This is what my research yielded for each of the functions I needed to implement and, while this has been really illustrative, I feel that I lack the conceptual understanding on how these play together. I'll shelve this concern for now and probably take a little side quest to find out more for the next writeup.
 
 In terms of implementation, first thing to note is that none of these allocate, the memory for the output will always be provided by the caller. Second, some of the signatures don't show it, but operations are made in place where it makes sense.
 
