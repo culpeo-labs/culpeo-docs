@@ -49,9 +49,9 @@ K = \text{RoPE}(K)
 Once this is done, we need to apply our query $Q$ to the key $K$ of all previous tokens to compute how they influence each other, with this yielding the scores.
 
 ```math
-\text{scores}_i = Q \cdot K_i
+\text{scores}_i = K_i \cdot Q
 ```
-These scores get then scaled by the inverse of the square root of the dimension of each attention head, and softmax gets applied to it to get probabilities from the logits.
+These scores get then scaled by the inverse of the square root of the dimension of each attention head, and `softmax` gets applied to it to get probabilities from the logits.
 
 ```math
 \text{scores} = \text{softmax}\!\left(\text{scores} \cdot \frac{1}{\sqrt{\text{head\_dim}}}\right)
