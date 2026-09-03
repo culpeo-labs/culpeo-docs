@@ -92,3 +92,12 @@ Interface has the same shape, although less efficient to write for a row-aligned
 And that is actually all there is to it, exactly what you would expect of something that has cache in the name, with the added interesting bit that shape matters.
 
 Next up, we'll talk about floating-point numbers.
+
+:::note
+
+The PRs are that are relevant for the implementation of the KV cache are:
+
+- [Refactor cache_block to use mdarray. #11](https://github.com/culpeo-labs/inference/pull/11)
+- [Extending cache block to allow transposed storage.](https://github.com/culpeo-labs/inference/pull/12)
+- [Storing values transposed to use matvec directly + Add heuristic to fall back into sequential execution. #13](https://github.com/culpeo-labs/inference/pull/13)
+:::
