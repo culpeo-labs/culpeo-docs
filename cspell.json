@@ -6,6 +6,8 @@
     "deleter",
     "glecaros",
     "logits",
+    "matvec",
+    "mdarray",
     "RAII",
     "refdoc",
     "safetensors",
