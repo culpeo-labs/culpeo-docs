@@ -7,6 +7,8 @@ tags: [inference]
 
 So, there's a lot of buzz about memory in the AI space; this buzz seems to, by the time of me writing this, have overtaken completely the discussion about compute. This is because here lies perhaps the catch of the "Deep Neural Network scale really well when parameters grow" phrase: those parameters need to a) be loaded somewhere, and b) need to be given to a processor to munch on.
 
+{/* truncate */}
+
 To put this in scale, the latest (again, at the time of this writing) models seem to be in the order of 500 billion parameters, with each of these parameters obviously being a number. This means that to run it we need to load 500 billion numbers, and not just that, we need to also perform computations on them (as was previously described in the post about the forward block)... that is a lot of numbers, and a lot of moving of numbers even without considering KV-caches and the like. This would mean that if we have a parameter count of $N$, and a parameter representation $b$ in (bytes per parameter), we could define $W$ as the total bytes used by the parameters.
 
 ```math
