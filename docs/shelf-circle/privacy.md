@@ -100,8 +100,8 @@ advertising or to build marketing profiles, and we don't sell it.
   photo (and whether approval is needed), so treat it like a private link.
 - **Your profile photo** is stored at a web address that isn't listed anywhere but that anyone
   who has the address can open. When you replace or remove your photo, we delete the old file.
-  If you pick a photo and leave without saving, that unsaved file may remain in storage until we
-  clean it up. Deleting your account removes your photos.
+  If you pick a photo and leave without saving, we delete that unsaved file within a couple of
+  hours. Deleting your account removes your photos.
 
 ## Service providers
 
