@@ -10,6 +10,13 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: ['async-ws/intro', 'async-ws/api-reference'],
     },
+    {
+      type: 'category',
+      label: 'Shelf Circle',
+      collapsible: true,
+      collapsed: false,
+      items: ['shelf-circle/privacy'],
+    },
   ],
 };
 
