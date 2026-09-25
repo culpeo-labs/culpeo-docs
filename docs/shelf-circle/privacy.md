@@ -99,9 +99,9 @@ advertising or to build marketing profiles, and we don't sell it.
   Anyone who has an invite link before it is used up or expires can see your display name and
   photo (and whether approval is needed), so treat it like a private link.
 - **Your profile photo** is stored at a web address that isn't listed anywhere but that anyone
-  who has the address can open. If you replace or remove your photo, we don't automatically
-  delete the old file, so it can remain reachable at its old address; email us if you want an old
-  photo removed. Deleting your account removes your photos.
+  who has the address can open. When you replace or remove your photo, we delete the old file.
+  If you pick a photo and leave without saving, that unsaved file may remain in storage until we
+  clean it up. Deleting your account removes your photos.
 
 ## Service providers
 
