@@ -21,8 +21,9 @@ Shelf Circle is made by **culpeo-labs** ("we", "us"). You can reach us at
 
 - You sign in with your email. We store your email, a profile (handle, display name, optional
   photo), and the reading data you enter.
-- Your friends — people who accepted your invite — can see your name, photo, and reading
-  activity. They can see your full bookshelves only if you turn that on.
+- Your friends — people you invited and who joined, or whom you approved — can see your name,
+  handle, photo, and reading activity. They can see your full bookshelves only if you turn that
+  on. Nobody else can look you up.
 - We don't show ads, we don't sell your data, and we don't use analytics or advertising trackers.
 - You can change or delete your information at any time. See
   [Your choices and deleting your data](#your-choices-and-deleting-your-data).
@@ -75,20 +76,28 @@ advertising or to build marketing profiles, and we don't sell it.
 
 ## Who can see your information
 
-- **Your friends.** Friends are added by scanning or opening an invite link. Your friends can
-  see your display name, handle, and photo, and your reading activity in their timeline (for
-  example, that you started or finished a book) — except books you log as read *before* you
-  started using Shelf Circle, which are kept out of the timeline. Friends also see the
-  recommendations you send them, including your note.
+- **Your friends.** Friends are added only through an invite link or QR code that you create
+  (see below). Your friends can see your display name, handle, and photo, and your reading
+  activity in their timeline (for example, that you started or finished a book) — except books
+  you log as read *before* you started using Shelf Circle, which are kept out of the timeline.
+  Friends also see the recommendations you send them, including your note. You can only send
+  recommendations to your friends.
 - **Your bookshelves, if you choose.** By default only you can see your shelves. If you turn on
   **Share my bookshelves with friends** (Me tab), your friends can see what you are reading, have
   read, and want to read, with your ratings and progress. You can turn this off at any time.
 - **Your reading goal and yearly count** are visible only to you.
-- **Other signed-in users.** Someone who is signed in and knows your handle can look up your
-  profile (handle, display name, photo). Your **email address is never shown to other users.**
-- **Invite links.** An invite link or QR code holds a random one-time token that expires after 7
-  days. Anyone who opens it before then can see your display name and photo and can accept it to
-  become your friend. Only share invites with people you want to add.
+- **People who aren't your friends** can't search for you or look up your profile. Your
+  **email address and account ID are never shown to other users**, and your handle is shown only
+  to your friends.
+- **Invite links.** You choose how each invite works:
+  - *One person:* a link or QR code that works once and expires after 7 days. Whoever uses it
+    first becomes your friend straight away, so share it only with the person you mean.
+  - *Anyone with the link:* a link that works for up to 30 days, or until you stop it, for
+    sharing more widely. Each person who uses it sends you a request that shows only their
+    display name and photo, and **they become your friend only if you approve.**
+
+  Anyone who has an invite link before it is used up or expires can see your display name and
+  photo (and whether approval is needed), so treat it like a private link.
 - **Your profile photo** is stored at a web address that isn't listed anywhere but that anyone
   who has the address can open. If you replace or remove your photo, we don't automatically
   delete the old file, so it can remain reachable at its old address; email us if you want an old
