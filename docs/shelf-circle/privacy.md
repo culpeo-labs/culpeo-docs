@@ -127,20 +127,28 @@ or our service.
 
 ## How long we keep your information
 
-We keep your information while your account exists. When you delete your account we delete your
-profile and reading data from our database, and your profile photo from storage. Encrypted
-database backups are kept for up to 7 days and then expire, and application logs for up to 30
-days, so residual copies can persist for that long after deletion.
+We keep your information while your account exists. When you delete your account, we delete it
+straight away: your profile, profile photos, bookshelves, ratings, reading history, goals,
+friends, invites, and recommendations (including ones you sent to other people), and your
+sign-in account with Hanko, including your email address. Encrypted database backups are kept
+for up to 7 days and then expire, and application logs for up to 30 days, so residual copies can
+persist for that long after deletion.
+
+For 7 days after deletion we also remember an anonymous account identifier (no name or email), so
+that a sign-in session that was still active can't quietly re-create the account you just
+deleted. Then that identifier is deleted too.
 
 ## Your choices and deleting your data
 
 - **Edit or remove your information.** In the app you can change your display name and photo,
   remove your photo, change or remove your reading goal, and choose whether friends see your
   bookshelves.
-- **Delete your account and data.** Email us at **[CONTACT EMAIL — TO BE FILLED IN]** from the
-  address on your account, with the subject "Delete my Shelf Circle account". We'll delete your
-  account and all data described above, including your sign-in record with Hanko, within 30
-  days and confirm by email.
+- **Delete your account and data.** In the app, open the **Me** tab and choose **Delete
+  account**, then confirm. Everything described above is deleted immediately, and you are signed
+  out. If you can't get into the app, email us at **[CONTACT EMAIL — TO BE FILLED IN]** from the
+  address on your account with the subject "Delete my Shelf Circle account", and we'll delete
+  your account and all data, including your sign-in record with Hanko, within 30 days and
+  confirm by email.
 - **Access or correct your information.** You can see most of it in the app. If you'd like a
   copy of the rest, or something corrected, email us.
 
