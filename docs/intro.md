@@ -22,3 +22,9 @@ A promise-based, async-iterable WebSocket client for browsers and Node.js.
 - [API Reference](/async-ws/api-reference)
 - [GitHub](https://github.com/culpeo-labs/async-ws)
 - [npm](https://www.npmjs.com/package/@culpeo/async-ws)
+
+### Shelf Circle
+
+A friends-only reading tracker and book-recommendation app for Android.
+
+- [Privacy policy](/shelf-circle/privacy)
