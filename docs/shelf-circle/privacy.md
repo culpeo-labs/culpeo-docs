@@ -119,6 +119,9 @@ their service to us, not for their own purposes.
   requests come from our servers and **don't include your name, email, or account.** Tapping
   the resulting link opens the library's own website in your browser, which is covered by that
   library's privacy policy.
+- **Tally** ([tally.so](https://tally.so/help/privacy-policy)) hosts our privacy contact form.
+  What you type into that form (your email address and your message) is processed by Tally
+  on our behalf, and stored in Europe.
 - **Google Play** distributes the app and collects its own information under
   [Google's privacy policy](https://policies.google.com/privacy).
 
@@ -182,4 +185,5 @@ tell you in the app or by email before it takes effect.
 
 ## Contact
 
-Questions or requests: **[CONTACT EMAIL — TO BE FILLED IN]**.
+For questions or privacy requests, use our **[privacy contact form](https://tally.so/r/68XKgN)**
+(hosted by Tally). You can also write to **[CONTACT EMAIL — TO BE FILLED IN]**.
