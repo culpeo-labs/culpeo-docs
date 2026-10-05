@@ -121,7 +121,8 @@ their service to us, not for their own purposes.
   library's privacy policy.
 - **Tally** ([tally.so](https://tally.so/help/privacy-policy)) hosts our privacy contact form.
   What you type into that form (your email address and your message) is processed by Tally
-  on our behalf, and stored in Europe.
+  on our behalf. Tally states that its service is hosted in the EU; we're confirming whether
+  its data processing agreement covers the free plan we use.
 - **Google Play** distributes the app and collects its own information under
   [Google's privacy policy](https://policies.google.com/privacy).
 
