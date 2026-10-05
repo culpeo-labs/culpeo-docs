@@ -14,8 +14,8 @@ with people you know. This policy explains what information the Shelf Circle And
 (package `com.shelfcircle.app`) and its servers collect, why, who can see it, and how you can
 delete it. It applies to Shelf Circle only, not to other projects on this site.
 
-Shelf Circle is made by **culpeo-labs** ("we", "us"). You can reach us at
-**[CONTACT EMAIL — TO BE FILLED IN]**.
+Shelf Circle is made by **culpeo-labs** ("we", "us"). To reach us about this policy or your
+data, use the [privacy contact form](https://tally.so/r/68XKgN) (see [Contact](#contact)).
 
 ## The short version
 
@@ -121,8 +121,8 @@ their service to us, not for their own purposes.
   library's privacy policy.
 - **Tally** ([tally.so](https://tally.so/help/privacy-policy)) hosts our privacy contact form.
   What you type into that form (your email address and your message) is processed by Tally
-  on our behalf. Tally states that its service is hosted in the EU; we're confirming whether
-  its data processing agreement covers the free plan we use.
+  on our behalf under its data processing agreement. Tally states that its service is hosted in
+  the EU.
 - **Google Play** distributes the app and collects its own information under
   [Google's privacy policy](https://policies.google.com/privacy).
 
@@ -149,8 +149,9 @@ deleted. Then that identifier is deleted too.
   bookshelves.
 - **Delete your account and data.** In the app, open the **Me** tab and choose **Delete
   account**, then confirm. Everything described above is deleted immediately, and you are signed
-  out. If you can't get into the app, email us at **[CONTACT EMAIL — TO BE FILLED IN]** from the
-  address on your account with the subject "Delete my Shelf Circle account", and we'll delete
+  out. If you can't get into the app, send a request through the
+  [privacy contact form](https://tally.so/r/68XKgN) with the subject "Delete my Shelf Circle
+  account" and the email address on your account, and we'll delete
   your account and all data, including your sign-in record with Hanko, within 30 days and
   confirm by email.
 - **Access or correct your information.** You can see most of it in the app. If you'd like a
@@ -187,4 +188,4 @@ tell you in the app or by email before it takes effect.
 ## Contact
 
 For questions or privacy requests, use our **[privacy contact form](https://tally.so/r/68XKgN)**
-(hosted by Tally). You can also write to **[CONTACT EMAIL — TO BE FILLED IN]**.
+(hosted by Tally).
