@@ -171,9 +171,10 @@ their information at risk.
 
 ## Children
 
-Shelf Circle is not directed to children under 13, and you must be at least 13 to use it. We
-don't knowingly collect information from children under 13. If you believe a child has given us
-information, email us and we'll delete it.
+Shelf Circle is not directed to children, and you must be at least 16 to use it. We don't
+knowingly collect information from anyone under 16. If we learn that an account belongs to
+someone under 16, we delete it. If you believe a child has given us information, use the
+[privacy contact form](https://tally.so/r/68XKgN) and we'll delete it.
 
 ## International users
 
